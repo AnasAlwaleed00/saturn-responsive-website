@@ -1,3 +1,7 @@
 -Just Started
 
 -Testing
+
+-Added font
+-Added colors
+-Added header

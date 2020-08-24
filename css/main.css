@@ -1,3 +1,7 @@
+body {
+  font-family: "DM Sans", sans-serif;
+}
+
 /*!
  * Bootstrap Reboot v4.5.2 (https://getbootstrap.com/)
  * Copyright 2011-2020 The Bootstrap Authors
@@ -395,7 +399,7 @@ html {
 }
 @media (min-width: 1200px) {
   .container, .container-sm, .container-md, .container-lg, .container-xl {
-    max-width: 1140px;
+    max-width: 1240px;
   }
 }
 .row {
@@ -1582,7 +1586,7 @@ nav {
 }
 
 nav .logo {
-  color: #5fc477;
+  color: #5FCEAF;
   font-size: 30px;
   font-weight: 600;
   letter-spacing: -1px;
@@ -1724,7 +1728,7 @@ nav .search-icon.hide {
 }
 
 nav .logo.space {
-  color: #5fc477;
+  color: #5FCEAF;
   padding: 0 5px 0 0;
 }
 

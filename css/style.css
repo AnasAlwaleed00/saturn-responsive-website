@@ -1,0 +1,58 @@
+body {
+  font-family: "DM Sans", sans-serif;
+}
+
+header {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+header .header-left {
+  display: flex;
+  flex-direction: column;
+}
+header .header-left h1 {
+  color: #28224B;
+  font-size: 50px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+header .header-left p {
+  color: #555555;
+  font-size: 20px;
+}
+header .header-left button {
+  margin-top: 10px;
+  background-color: #5FCEAF;
+  color: #ffffff;
+  width: 210px;
+  border: none;
+  padding: 20px 1px;
+  font-weight: 300;
+  font-size: 18px;
+  border-radius: 10px;
+  transition: all 0.7s;
+}
+header .header-left button:hover {
+  background-color: #3bac8c;
+}
+header .header-right img {
+  width: 100%;
+}
+
+.trusted {
+  margin-top: 120px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #555555;
+}
+.trusted .logos {
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+.trusted .logos img {
+  width: 13%;
+  filter: grayscale(100%);
+  opacity: 0.7;
+}
