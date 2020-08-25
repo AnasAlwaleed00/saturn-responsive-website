@@ -5,3 +5,7 @@
 -Added font
 -Added colors
 -Added header
+
+-Added features
+
+-Added Pricing

@@ -1,0 +1,97 @@
+.pricing {
+    padding-top: 120px;
+    padding-bottom: 120px;
+    background-color: $colorBody;
+}
+.pricing-top {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    h2 {
+        color: $colorPrimary;
+        font-size: 40px;
+    }
+    p {
+        color: $colorText;
+    }
+}
+.pricing-items {
+    margin-top: 40px;
+    .row {
+        flex-wrap: nowrap;
+    }
+    .pricing-item {
+        padding-right: 30px;
+        padding-left: 30px;
+        padding-bottom: 20px;
+        background-color: $colorWhite;
+        border-radius: 30px;
+        display: flex;
+        flex-direction: column;
+        box-shadow: 0px 13px 10px -3px #cccccc;
+    }
+    .pricing-item:nth-child(1), .pricing-item:nth-child(2) {
+        margin-right: 15px;
+    }
+    .card-top {
+        margin-top: 50px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        .pricing-icon {
+            padding: 10px;
+            background-color: $colorBody;
+            border-radius: 20px;
+            text-align: center;
+        }
+    }
+    .card-price {
+        p {
+            color: $colorText;
+            font-weight: 700;
+        }
+        span {
+            color: $colorPrimary;
+            font-size: 30px;
+            font-weight: 700;
+        }
+    }
+    .card-features {
+        margin-top: 20px;
+        margin-bottom: 50px;
+    }
+    .card-feature {
+        display: flex;
+        margin-bottom: 15px;
+        p {
+            margin-left: 10px;
+            margin-bottom: 0;
+            color: $colorPrimary;
+            font-weight: 700;
+            font-size: 20px;
+        }
+    }
+    .btn {
+        width: 80%;
+        margin: 0 auto;
+        button {
+            width: 100%;
+            padding: 10px 0px;
+            font-size: 20px;
+            font-weight: 700;
+            border-radius: 30px;
+            font-size: 20px;
+            background-color: $colorAccent;
+            color: $colorWhite;
+            border: 0;
+            transition: all .7s;
+            &:hover {
+                background-color: #3bac8c;
+            }
+        }
+    }
+    .disabled {
+        opacity: .4;
+        cursor: default;
+    }
+}
