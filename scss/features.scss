@@ -1,0 +1,96 @@
+.features {
+    background-color: $colorBody;
+    padding-top: 120px;
+}
+.feature-1 {
+    .feature-1-top {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        h2 {
+            font-size: 40px;
+            color: $colorPrimary;
+        }
+        p {
+            color: $colorText;
+            font-size: 18px;
+            font-weight: 400;
+        }
+    }
+    .feature-1-items {
+        margin-top: 40px;
+        .feature-1-item {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            .feature-icon {
+                background-color: $colorWhite;
+                padding: 20px 15px;
+                border-radius: 20px;
+                margin-bottom: 10px;
+                box-shadow: 16px 10px 17px -3px #cccccc;
+                img {
+                    width: 100%;
+                    text-align: center;
+                }
+            }
+            h3 {
+                color: $colorPrimary;
+                font-size: 30px;
+            }
+            p {
+                color: $colorText;
+            }
+        }
+    }
+}
+
+.feature-2 {
+    margin-top: 150px;
+    img {
+        width: 100%;
+    }
+    .features-text-1, .features-text-2, .features-text-3 {
+        display: flex;
+        flex-direction: column;
+        h2 {
+            font-size: 45px;
+            color: $colorPrimary;
+        }
+        p {
+            color: $colorText;
+        }
+        .icon-text {
+            margin-top: 20px;
+            display: flex;
+            align-items: center;
+            img {
+                height: 50px;
+                width: 50px;
+            }
+            .text {
+                margin-left: 20px;
+                h4 {
+                    color: $colorPrimary;
+                    font-size: 25px;
+                }
+                p {
+                    color: $colorText;
+                }
+            }
+        }
+    }
+    .features-text-3 {
+        button {
+            background-color: $colorAccent;
+            color: $colorWhite;
+            border: none;
+            padding: 10px 12px;
+            border-radius: 6px;
+        }
+    }
+}
+.features-img-1, .features-text-1, .features-img-2, .features-text-2, .features-img-3, .features-text-3,  {
+    margin-bottom: 120px;
+}

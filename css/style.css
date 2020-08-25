@@ -56,3 +56,98 @@ header .header-right img {
   filter: grayscale(100%);
   opacity: 0.7;
 }
+
+.features {
+  background-color: #F5F7FF;
+  padding-top: 120px;
+}
+
+.feature-1 .feature-1-top {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.feature-1 .feature-1-top h2 {
+  font-size: 40px;
+  color: #28224B;
+}
+.feature-1 .feature-1-top p {
+  color: #555555;
+  font-size: 18px;
+  font-weight: 400;
+}
+.feature-1 .feature-1-items {
+  margin-top: 40px;
+}
+.feature-1 .feature-1-items .feature-1-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.feature-1 .feature-1-items .feature-1-item .feature-icon {
+  background-color: #ffffff;
+  padding: 20px 15px;
+  border-radius: 20px;
+  margin-bottom: 10px;
+  box-shadow: 16px 10px 17px -3px #cccccc;
+}
+.feature-1 .feature-1-items .feature-1-item .feature-icon img {
+  width: 100%;
+  text-align: center;
+}
+.feature-1 .feature-1-items .feature-1-item h3 {
+  color: #28224B;
+  font-size: 30px;
+}
+.feature-1 .feature-1-items .feature-1-item p {
+  color: #555555;
+}
+
+.feature-2 {
+  margin-top: 150px;
+}
+.feature-2 img {
+  width: 100%;
+}
+.feature-2 .features-text-1, .feature-2 .features-text-2, .feature-2 .features-text-3 {
+  display: flex;
+  flex-direction: column;
+}
+.feature-2 .features-text-1 h2, .feature-2 .features-text-2 h2, .feature-2 .features-text-3 h2 {
+  font-size: 45px;
+  color: #28224B;
+}
+.feature-2 .features-text-1 p, .feature-2 .features-text-2 p, .feature-2 .features-text-3 p {
+  color: #555555;
+}
+.feature-2 .features-text-1 .icon-text, .feature-2 .features-text-2 .icon-text, .feature-2 .features-text-3 .icon-text {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+}
+.feature-2 .features-text-1 .icon-text img, .feature-2 .features-text-2 .icon-text img, .feature-2 .features-text-3 .icon-text img {
+  height: 50px;
+  width: 50px;
+}
+.feature-2 .features-text-1 .icon-text .text, .feature-2 .features-text-2 .icon-text .text, .feature-2 .features-text-3 .icon-text .text {
+  margin-left: 20px;
+}
+.feature-2 .features-text-1 .icon-text .text h4, .feature-2 .features-text-2 .icon-text .text h4, .feature-2 .features-text-3 .icon-text .text h4 {
+  color: #28224B;
+  font-size: 25px;
+}
+.feature-2 .features-text-1 .icon-text .text p, .feature-2 .features-text-2 .icon-text .text p, .feature-2 .features-text-3 .icon-text .text p {
+  color: #555555;
+}
+.feature-2 .features-text-3 button {
+  background-color: #5FCEAF;
+  color: #ffffff;
+  border: none;
+  padding: 10px 12px;
+  border-radius: 6px;
+}
+
+.features-img-1, .features-text-1, .features-img-2, .features-text-2, .features-img-3, .features-text-3 {
+  margin-bottom: 120px;
+}
