@@ -249,3 +249,91 @@ header .header-right img {
   opacity: 0.4;
   cursor: default;
 }
+
+.faq {
+  padding-top: 120px;
+  padding-bottom: 120px;
+  background-color: #ffffff;
+}
+
+.faq-top img {
+  width: 100%;
+}
+.faq-top .faq-top-right {
+  padding-left: 40px;
+  padding-top: 30px;
+}
+.faq-top h2 {
+  color: #28224B;
+  font-size: 45px;
+  font-weight: bolder;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+.faq-top p {
+  color: #555555;
+  margin-bottom: 40px;
+}
+.faq-top button {
+  border: none;
+  background-color: #5FCEAF;
+  color: #ffffff;
+  padding: 10px 25px;
+  font-size: 20px;
+  border-radius: 8px;
+}
+.faq-top button:focus {
+  outline: none;
+}
+
+.faq-2 {
+  padding-top: 120px;
+}
+.faq-2 > h2 {
+  color: #28224B;
+  font-size: 50px;
+}
+.faq-2 .ques-left, .faq-2 .ques-right {
+  margin-top: 30px;
+}
+.faq-2 .que {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 30px;
+}
+.faq-2 .que p {
+  opacity: 0;
+  height: 0;
+  overflow: hidden;
+  transition: all 0.5s linear;
+}
+.faq-2 p.show {
+  opacity: 1;
+  height: 100%;
+  color: #00000080;
+  padding: 15px 15px 15px 0px;
+}
+.faq-2 .que-title {
+  display: flex;
+  align-items: center;
+}
+.faq-2 .que-title h2 {
+  margin-left: 6px;
+  margin-bottom: 0;
+}
+.faq-2 button {
+  border: none;
+  outline: none;
+  background-color: #5FCEAF;
+  color: #ffffff;
+  padding: 0px 14px;
+  border-radius: 8px;
+  font-size: 20px;
+}
+.faq-2 .line {
+  width: 80%;
+  margin-top: 10px;
+  height: 1px;
+  background-color: #ccc;
+  opacity: 0.5;
+}
