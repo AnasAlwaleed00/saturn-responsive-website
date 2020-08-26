@@ -17,3 +17,5 @@
 -Added Footer
 
 -Improved UI
+
+-Added Typo

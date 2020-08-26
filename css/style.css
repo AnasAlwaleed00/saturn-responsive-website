@@ -11,7 +11,7 @@ header .header-left {
   flex-direction: column;
 }
 header .header-left h1 {
-  color: #28224B;
+  color: #254E70;
   font-size: 50px;
   font-weight: 700;
   margin-bottom: 10px;
@@ -22,7 +22,7 @@ header .header-left p {
 }
 header .header-left button {
   margin-top: 10px;
-  background-color: #5FCEAF;
+  background-color: #F78E69;
   color: #ffffff;
   width: 210px;
   border: none;
@@ -69,7 +69,7 @@ header .header-right img {
 }
 .feature-1 .feature-1-top h2 {
   font-size: 40px;
-  color: #28224B;
+  color: #254E70;
 }
 .feature-1 .feature-1-top p {
   color: #555555;
@@ -97,7 +97,7 @@ header .header-right img {
   text-align: center;
 }
 .feature-1 .feature-1-items .feature-1-item h3 {
-  color: #28224B;
+  color: #254E70;
   font-size: 30px;
 }
 .feature-1 .feature-1-items .feature-1-item p {
@@ -116,7 +116,7 @@ header .header-right img {
 }
 .feature-2 .features-text-1 h2, .feature-2 .features-text-2 h2, .feature-2 .features-text-3 h2 {
   font-size: 45px;
-  color: #28224B;
+  color: #254E70;
 }
 .feature-2 .features-text-1 p, .feature-2 .features-text-2 p, .feature-2 .features-text-3 p {
   color: #555555;
@@ -134,14 +134,14 @@ header .header-right img {
   margin-left: 20px;
 }
 .feature-2 .features-text-1 .icon-text .text h4, .feature-2 .features-text-2 .icon-text .text h4, .feature-2 .features-text-3 .icon-text .text h4 {
-  color: #28224B;
+  color: #254E70;
   font-size: 25px;
 }
 .feature-2 .features-text-1 .icon-text .text p, .feature-2 .features-text-2 .icon-text .text p, .feature-2 .features-text-3 .icon-text .text p {
   color: #555555;
 }
 .feature-2 .features-text-3 button {
-  background-color: #5FCEAF;
+  background-color: #F78E69;
   color: #ffffff;
   border: none;
   padding: 13px 17px;
@@ -169,7 +169,7 @@ header .header-right img {
   align-items: center;
 }
 .pricing-top h2 {
-  color: #28224B;
+  color: #254E70;
   font-size: 40px;
 }
 .pricing-top p {
@@ -212,7 +212,7 @@ header .header-right img {
   font-weight: 700;
 }
 .pricing-items .card-price span {
-  color: #28224B;
+  color: #254E70;
   font-size: 30px;
   font-weight: 700;
 }
@@ -227,7 +227,7 @@ header .header-right img {
 .pricing-items .card-feature p {
   margin-left: 10px;
   margin-bottom: 0;
-  color: #28224B;
+  color: #254E70;
   font-weight: 700;
   font-size: 20px;
 }
@@ -242,7 +242,7 @@ header .header-right img {
   font-weight: 700;
   border-radius: 12px;
   font-size: 20px;
-  background-color: #5FCEAF;
+  background-color: #F78E69;
   color: #ffffff;
   border: 0;
   transition: all 0.7s;
@@ -272,7 +272,7 @@ header .header-right img {
   font-size: 20px;
 }
 .faq-top h2 {
-  color: #28224B;
+  color: #254E70;
   font-size: 45px;
   font-weight: bolder;
   margin-top: 40px;
@@ -284,7 +284,7 @@ header .header-right img {
 }
 .faq-top button {
   border: none;
-  background-color: #5FCEAF;
+  background-color: #F78E69;
   color: #ffffff;
   padding: 10px 25px;
   font-size: 20px;
@@ -298,7 +298,7 @@ header .header-right img {
   padding-top: 120px;
 }
 .faq-2 > h2 {
-  color: #28224B;
+  color: #254E70;
   font-size: 50px;
 }
 .faq-2 .ques-left, .faq-2 .ques-right {
@@ -332,7 +332,7 @@ header .header-right img {
 .faq-2 button {
   border: none;
   outline: none;
-  background-color: #5FCEAF;
+  background-color: #F78E69;
   color: #ffffff;
   padding: 0px 14px;
   border-radius: 8px;
@@ -371,7 +371,7 @@ header .header-right img {
 }
 .start button {
   margin-top: 10px;
-  background-color: #5FCEAF;
+  background-color: #F78E69;
   color: #ffffff;
   border: none;
   padding: 12px 27px;
