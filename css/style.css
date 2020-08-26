@@ -24,9 +24,8 @@ header .header-left button {
   margin-top: 10px;
   background-color: #F78E69;
   color: #ffffff;
-  width: 210px;
   border: none;
-  padding: 20px 1px;
+  padding: 15px 30px;
   font-weight: 300;
   font-size: 18px;
   border-radius: 10px;
@@ -48,11 +47,10 @@ header .header-right img {
 }
 .trusted .logos {
   margin-top: 10px;
-  display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
 }
 .trusted .logos img {
-  width: 13%;
   filter: grayscale(100%);
   opacity: 0.7;
 }
@@ -117,6 +115,7 @@ header .header-right img {
 .feature-2 .features-text-1 h2, .feature-2 .features-text-2 h2, .feature-2 .features-text-3 h2 {
   font-size: 45px;
   color: #254E70;
+  margin-bottom: 30px;
 }
 .feature-2 .features-text-1 p, .feature-2 .features-text-2 p, .feature-2 .features-text-3 p {
   color: #555555;
@@ -183,9 +182,6 @@ header .header-right img {
 .pricing-items {
   margin-top: 40px;
 }
-.pricing-items .row {
-  flex-wrap: nowrap;
-}
 .pricing-items .pricing-item {
   padding-right: 30px;
   padding-left: 30px;
@@ -195,9 +191,6 @@ header .header-right img {
   display: flex;
   flex-direction: column;
   box-shadow: 0px 13px 10px -3px #cccccc;
-}
-.pricing-items .pricing-item:nth-child(1), .pricing-items .pricing-item:nth-child(2) {
-  margin-right: 15px;
 }
 .pricing-items .card-top {
   margin-top: 50px;
@@ -477,4 +470,174 @@ footer {
 }
 .footer-copy a:hover {
   text-decoration: underline;
+}
+
+@media (max-width: 576px) {
+  header {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  header .header-left .btn {
+    width: 80%;
+    margin: 20px auto;
+  }
+  header .header-left button {
+    width: 100%;
+  }
+  header .logos .logo {
+    text-align: center;
+  }
+
+  .features {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  .features .feature-1-top h2 {
+    margin-bottom: 40px;
+  }
+
+  .feature-2 {
+    margin-top: 30px;
+  }
+
+  .feature-1-items .feature-1-item {
+    margin-bottom: 40px;
+  }
+
+  .features-text-1, .features-text-3 {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  .features-text-3 {
+    margin-bottom: 0px;
+    padding-bottom: 30px;
+  }
+  .features-text-3 .btn {
+    width: 80%;
+    margin: 20px auto;
+  }
+  .features-text-3 button {
+    width: 100%;
+  }
+
+  .pricing {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+
+  .pricing-item {
+    margin-bottom: 30px;
+  }
+
+  .faq-2 button {
+    padding: 20px 8px;
+  }
+  .faq-2 h2 {
+    margin-left: 14px;
+  }
+}
+@media (max-width: 991px) {
+  header {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  header .header-left .btn {
+    width: 80%;
+    margin: 20px auto;
+  }
+  header .header-left button {
+    width: 100%;
+  }
+  header .logos .logo {
+    text-align: center;
+  }
+
+  .features {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  .features .feature-1-top h2 {
+    margin-bottom: 40px;
+  }
+
+  .feature-2 {
+    margin-top: 30px;
+  }
+
+  .feature-1-items .feature-1-item {
+    margin-bottom: 40px;
+  }
+
+  .features-text-1, .features-text-3 {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  .features-text-3 {
+    margin-bottom: 0px;
+  }
+  .features-text-3 .btn {
+    width: 80%;
+    margin: 20px auto;
+  }
+  .features-text-3 button {
+    width: 100%;
+  }
+
+  .pricing {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+
+  .pricing-item {
+    margin-bottom: 30px;
+  }
+
+  .faq-2 button {
+    padding: 20px 8px;
+  }
+  .faq-2 h2 {
+    margin-left: 14px;
+  }
+
+  .features-img-1 {
+    order: 2;
+  }
+
+  .features-text-1 {
+    order: 1;
+  }
+
+  .features-img-2 {
+    order: 4;
+  }
+
+  .features-text-2 {
+    order: 3;
+  }
+
+  .features-img-3 {
+    order: 6;
+  }
+
+  .features-text-3 {
+    order: 5;
+  }
+}
+@media (min-width: 992px) {
+  .pricing {
+    overflow: hidden;
+  }
+
+  .pricing-items {
+    margin-top: 40px;
+  }
+  .pricing-items .row {
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+  }
+  .pricing-items .pricing-item:nth-child(1), .pricing-items .pricing-item:nth-child(2) {
+    margin-right: 15px;
+  }
 }

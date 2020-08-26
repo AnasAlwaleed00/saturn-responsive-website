@@ -18,9 +18,8 @@ header {
             margin-top: 10px;
             background-color: $colorAccent;
             color: $colorWhite;
-            width: 210px;
             border: none;
-            padding: 20px 1px;
+            padding: 15px 30px;
             font-weight: 300;
             font-size: 18px;
             border-radius: 10px;
@@ -44,10 +43,10 @@ header {
     color: $colorText;
     .logos {
         margin-top: 10px;
-        display: flex;
-        justify-content: space-between;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
         img {
-            width: 13%;
+
             filter: grayscale(100%);
             opacity: .70;
         }
