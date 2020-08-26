@@ -1,5 +1,5 @@
 .pricing {
-    padding-top: 120px;
+    padding-top: 80px;
     padding-bottom: 120px;
     background-color: $colorBody;
 }
@@ -25,7 +25,7 @@
         padding-left: 30px;
         padding-bottom: 20px;
         background-color: $colorWhite;
-        border-radius: 30px;
+        border-radius: 15px;
         display: flex;
         flex-direction: column;
         box-shadow: 0px 13px 10px -3px #cccccc;
@@ -79,7 +79,7 @@
             padding: 10px 0px;
             font-size: 20px;
             font-weight: 700;
-            border-radius: 30px;
+            border-radius: 12px;
             font-size: 20px;
             background-color: $colorAccent;
             color: $colorWhite;

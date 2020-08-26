@@ -77,7 +77,7 @@ header .header-right img {
   font-weight: 400;
 }
 .feature-1 .feature-1-items {
-  margin-top: 40px;
+  margin-top: 80px;
 }
 .feature-1 .feature-1-items .feature-1-item {
   display: flex;
@@ -144,8 +144,13 @@ header .header-right img {
   background-color: #5FCEAF;
   color: #ffffff;
   border: none;
-  padding: 10px 12px;
+  padding: 13px 17px;
   border-radius: 6px;
+  font-size: 20px;
+}
+
+.features-text-1, .features-text-3 {
+  padding-left: 70px;
 }
 
 .features-img-1, .features-text-1, .features-img-2, .features-text-2, .features-img-3, .features-text-3 {
@@ -153,7 +158,7 @@ header .header-right img {
 }
 
 .pricing {
-  padding-top: 120px;
+  padding-top: 80px;
   padding-bottom: 120px;
   background-color: #F5F7FF;
 }
@@ -182,7 +187,7 @@ header .header-right img {
   padding-left: 30px;
   padding-bottom: 20px;
   background-color: #ffffff;
-  border-radius: 30px;
+  border-radius: 15px;
   display: flex;
   flex-direction: column;
   box-shadow: 0px 13px 10px -3px #cccccc;
@@ -235,7 +240,7 @@ header .header-right img {
   padding: 10px 0px;
   font-size: 20px;
   font-weight: 700;
-  border-radius: 30px;
+  border-radius: 12px;
   font-size: 20px;
   background-color: #5FCEAF;
   color: #ffffff;
@@ -305,7 +310,7 @@ header .header-right img {
   opacity: 0;
   height: 0;
   overflow: hidden;
-  transition: all 0.5s linear;
+  transition: all 0.3s ease-out;
 }
 .faq-2 p.show {
   opacity: 1;

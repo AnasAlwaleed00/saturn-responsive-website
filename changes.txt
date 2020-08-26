@@ -15,3 +15,5 @@
 -Added Start
 
 -Added Footer
+
+-Improved UI
