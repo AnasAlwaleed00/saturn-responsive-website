@@ -9,3 +9,7 @@
 -Added features
 
 -Added Pricing
+
+-Added FAQ
+
+-Added Start

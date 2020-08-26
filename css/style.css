@@ -337,3 +337,44 @@ header .header-right img {
   background-color: #ccc;
   opacity: 0.5;
 }
+
+.start {
+  background-color: #4C50B1;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+.start .start-content {
+  max-width: 700px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.start h2, .start p {
+  color: #ffffff;
+  margin-bottom: 40px;
+}
+.start h2 {
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 1.2;
+}
+.start button {
+  margin-top: 10px;
+  background-color: #5FCEAF;
+  color: #ffffff;
+  border: none;
+  padding: 12px 27px;
+  font-weight: 300;
+  font-size: 22px;
+  border-radius: 10px;
+  transition: all 0.7s;
+}
+.start button:hover {
+  background-color: #3bac8c;
+}
+.start button:focus {
+  outline: none;
+}
