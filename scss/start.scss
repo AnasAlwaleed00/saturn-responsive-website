@@ -31,7 +31,7 @@
             border-radius: 10px;
             transition: all 0.7s;
             &:hover {
-                background-color: #3bac8c;
+                background-color: $colorAccentDeep;
             }
             &:focus {
                 outline: none;

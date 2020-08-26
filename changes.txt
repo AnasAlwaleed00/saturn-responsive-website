@@ -19,3 +19,7 @@
 -Improved UI
 
 -Added Typo
+
+-Added imgs/icons
+
+-Improved UI

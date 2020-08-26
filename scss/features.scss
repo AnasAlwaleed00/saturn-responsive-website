@@ -89,6 +89,10 @@
             padding: 13px 17px;
             border-radius: 6px;
             font-size: 20px;
+            transition: all .7s;
+            &:hover {
+                background-color: $colorAccentDeep;
+            }
         }
     }
 }

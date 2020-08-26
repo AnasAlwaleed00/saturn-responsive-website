@@ -26,7 +26,7 @@ header {
             border-radius: 10px;
             transition: all .7s;
             &:hover {
-                background-color: #3bac8c;
+                background-color: $colorAccentDeep;
             }
         }
     }
