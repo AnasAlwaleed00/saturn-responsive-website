@@ -13,3 +13,5 @@
 -Added FAQ
 
 -Added Start
+
+-Added Footer
